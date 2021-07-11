@@ -76,7 +76,7 @@ body {
     background-position: left;
     padding: 5rem 15rem 0 15rem;
     display: flex;
-    background-image: url("/7.png");
+    background-image: url("7.png");
 }
 .about-section > *{
     padding-left: 3rem;
