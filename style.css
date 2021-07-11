@@ -1,0 +1,195 @@
+	
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    width: 90%;
+    margin: 4rem auto;
+    height: auto;
+    display: flex;
+}
+.col-left,
+.col-right{
+    width: 47%;
+    height: auto;
+    margin:  4rem auto;
+    display: inline-block;
+}
+
+
+.col-left .heading{
+    padding-top: 20rem;
+    font-size: 2.3rem;
+    color: rgba(0,0,0,.7);
+}
+
+.col-left .heading h1{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.col-left .heading h1 strong{
+    color: #fb934a;
+}
+.col-left .heading p{
+    padding-top: 4rem;
+}
+.col-left .heading .order-button{
+    display: inline-block;
+    margin-top: 6rem;
+    padding: 1rem 1.8rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #fb8e49, #f64e2f);
+}
+.col-left .heading .order-button:hover{
+    
+    background: linear-gradient(to right, #f64e2f, #fb8e49);
+    transition: all 10s ease-in-out;
+}
+.col-right img{
+    width: 100%;
+}
+.about-section{
+    width: 90%;
+    min-height: 400px;
+    margin:  4rem auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 5rem 15rem 0 15rem;
+    display: flex;
+    background-image: url("/7.png");
+}
+.about-section > *{
+    padding-left: 3rem;
+}
+.about-section .col-left img{
+    width: 30rem;
+    height: auto;
+
+}
+.about-section .col-right h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-top: 7rem;
+}
+.about-section .col-right p{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-top: 3rem;
+    padding-right: 10rem;
+}
+.blog-section{
+    width: 90%;
+    margin:  4rem auto;
+}
+.blog-section .header{
+    text-align: center;
+    padding-top: 5rem;
+    display: block;
+}
+.blog-section .header h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgba(0,0,0,.7);
+}
+.blog-section .header p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+.blog-section .blog-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-section .blog-card .card{
+    width: 25%;
+    padding: 3rem;
+    box-shadow: 0px 0px 15px 15px rgba(0,0,0,.3);
+    border-radius: 3rem;
+    display: inline-block;
+    margin: 4rem;
+    transition: all .4s ease-in-out;
+}
+.blog-section .blog-card .card:hover{
+    transform:scale(1.1);
+}
+.blog-section .blog-card .card img{
+    width: 100%;
+    border-radius: 3rem;
+}
+.blog-section .blog-card .card h1{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.blog-section .blog-card .card p{
+    font-size: 2rem;
+}
+
+.subscribe-section{
+    width: 90%;
+    margin: 4rem auto;
+
+}
+.subscribe-section .subsribers{
+    width: 100%;
+    padding: 6rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem 1.2rem rgba(0,0,0,.5);
+}
+.subscribe-section .subsribers .subscribe-box{
+    width: 33%;
+    text-align: center;
+}
+.subscribe-section .subsribers .subscribe-box h1{
+    font-size: 6rem;
+}
+.subscribe-section .subsribers .subscribe-box p{
+    font-size: 2.5rem;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0rem auto;
+    padding: 8rem 0;
+    background: #000;
+}
+footer h1{
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.377);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+footer h1 span{
+    color: #fb934a;
+}
+footer p{
+    font-size: 2rem;
+    color: #fff;
+}
